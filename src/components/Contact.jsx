@@ -35,12 +35,43 @@ export default function Contact() {
           </a>
         </div>
 
-        <div className="mt-24 flex flex-wrap justify-center gap-8 md:gap-12 border-t border-white/5 pt-12 text-[10px] font-bold tracking-[0.3em]">
-          <a href="mailto:tejastulaskar0@gmail.com" target="_blank" className="text-slate-500 hover:text-white transition-colors uppercase">Email</a>
-          <a href="https://www.linkedin.com/in/tejas-tulaskar-3925b9290" target="_blank" className="text-slate-500 hover:text-white transition-colors uppercase">LinkedIn</a>
-          <a href="https://github.com/Tejas2895" target="_blank" className="text-slate-500 hover:text-white transition-colors uppercase">GitHub</a>
-          <a href="https://www.instagram.com/itz__tejas__28?igsh=MTN6MGIybmFhY2VlZQ==" target="_blank" className="text-slate-500 hover:text-white transition-colors uppercase">Instagram</a>
-        </div>
+       <div className="mt-16 md:mt-24 flex flex-wrap justify-center gap-6 md:gap-12 border-t border-white/5 pt-12 text-[10px] font-bold tracking-[0.3em]">
+  
+  <a 
+    href="mailto:tejastulaskar0@gmail.com" 
+    className="text-slate-500 hover:text-white transition-colors uppercase px-2 py-1"
+  >
+    Email
+  </a>
+
+  <a 
+    href="https://www.linkedin.com/in/tejas-tulaskar-3925b9290" 
+    target="_blank" 
+    rel="noopener noreferrer" 
+    className="text-slate-500 hover:text-white transition-colors uppercase px-2 py-1"
+  >
+    LinkedIn
+  </a>
+
+  <a 
+    href="https://github.com/Tejas2895" 
+    target="_blank" 
+    rel="noopener noreferrer" 
+    className="text-slate-500 hover:text-white transition-colors uppercase px-2 py-1"
+  >
+    GitHub
+  </a>
+
+  <a 
+    href="https://www.instagram.com/itz__tejas__28?igsh=MTN6MGIybmFhY2VlZQ==" 
+    target="_blank" 
+    rel="noopener noreferrer" 
+    className="text-slate-500 hover:text-white transition-colors uppercase px-2 py-1"
+  >
+    Instagram
+  </a>
+  
+</div>
 
       
         <p className="mt-12 text-slate-700 text-[8px] font-mono tracking-widest uppercase italic">
