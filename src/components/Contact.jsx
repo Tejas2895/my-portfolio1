@@ -35,11 +35,12 @@ export default function Contact() {
           </a>
         </div>
 
-       <div className="mt-16 md:mt-24 flex flex-wrap justify-center gap-6 md:gap-12 border-t border-white/5 pt-12 text-[10px] font-bold tracking-[0.3em]">
+       {/* 'relative z-50' add kiya hai taaki links sabse upar rahein aur click ho sakein */}
+<div className="relative z-50 mt-16 md:mt-24 flex flex-wrap justify-center gap-6 md:gap-12 border-t border-white/5 pt-12 text-[10px] font-bold tracking-[0.3em]">
   
   <a 
     href="mailto:tejastulaskar0@gmail.com" 
-    className="text-slate-500 hover:text-white transition-colors uppercase px-2 py-1"
+    className="relative z-50 text-slate-500 hover:text-white transition-colors uppercase px-4 py-2"
   >
     Email
   </a>
@@ -48,7 +49,7 @@ export default function Contact() {
     href="https://www.linkedin.com/in/tejas-tulaskar-3925b9290" 
     target="_blank" 
     rel="noopener noreferrer" 
-    className="text-slate-500 hover:text-white transition-colors uppercase px-2 py-1"
+    className="relative z-50 text-slate-500 hover:text-white transition-colors uppercase px-4 py-2"
   >
     LinkedIn
   </a>
@@ -57,7 +58,7 @@ export default function Contact() {
     href="https://github.com/Tejas2895" 
     target="_blank" 
     rel="noopener noreferrer" 
-    className="text-slate-500 hover:text-white transition-colors uppercase px-2 py-1"
+    className="relative z-50 text-slate-500 hover:text-white transition-colors uppercase px-4 py-2"
   >
     GitHub
   </a>
@@ -66,7 +67,7 @@ export default function Contact() {
     href="https://www.instagram.com/itz__tejas__28?igsh=MTN6MGIybmFhY2VlZQ==" 
     target="_blank" 
     rel="noopener noreferrer" 
-    className="text-slate-500 hover:text-white transition-colors uppercase px-2 py-1"
+    className="relative z-50 text-slate-500 hover:text-white transition-colors uppercase px-4 py-2"
   >
     Instagram
   </a>
